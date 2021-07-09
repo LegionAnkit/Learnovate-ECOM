@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/survey.css">
+</head>
+<body>
+    <h1>L-ECOM Job Survey</h1>
+    <form action="">
+        <label for="name"><b>Your name:</b></label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name here"><br><br>
+        <label for="email"><b>Your email:</b></label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email id here"><br><br>
+        <label for="college"><b>Your college:</b></label><br>
+        <input type="text" id="college" name="college" placeholder="Enter your college name here"><br><br>
+        <label for="stype"><b>You are pusrsuing</b></label>
+        <select name="stype" id="stype">
+            <option value="engg">Engineering</option>
+            <option value="law">Law</option>
+            <option value="business">MBA</option>
+            <option value="design">Designing</option>
+            <option value="science">Bachelor in science</option>
+        </select><br><br>
+        <label for="question1"><b>Where did you find our internship?</b></label><br>
+        <label for="option1">
+            <input type="radio" name="question1">Linkedin
+        </label><br>
+        <label for="option2">
+            <input type="radio" name="question1">Newspaper
+        </label><br>
+        <label for="option3">
+            <input type="radio" name="question1">Website
+        </label><br>
+        <label for="option4">
+            <input type="radio" name="question1">Friends
+        </label><br><br>
+        <label for="question2"><b>What was the duration of your internship?</b></label><br>
+        <label for="option1">
+            <input type="radio" name="question2">30 days
+        </label><br>
+        <label for="option2">
+            <input type="radio" name="question2">45 days
+        </label><br>
+        <label for="option3">
+            <input type="radio" name="question2">60 days
+        </label><br><br>
+        <label for="skillset"><b>What are the skills you learnt?</b><br>
+            <small>(select all that apply)</small>
+        </label><br>
+        <label for="skill1">
+            <input type="checkbox" name="skillset">Teamwork
+        </label><br>
+        <label for="skill2">
+            <input type="checkbox" name="skillset">Time management
+        </label><br>
+        <label for="skill3">
+            <input type="checkbox" name="skillset">Leadership
+        </label><br>
+        <label for="skill4">
+            <input type="checkbox" name="skillset">Communication
+        </label><br>
+        <label for="skill5">
+            <input type="checkbox" name="skillset">Marketing
+        </label><br>
+        <label for="skill6">
+            <input type="checkbox" name="skillset">Web development
+        </label><br>
+        <label for="skill7">
+            <input type="checkbox" name="skillset">Designing
+        </label><br><br>
+        <label for="question4"><b>This internship met your expectations</b></label><br>
+        <label for="option1">
+            <input type="radio" name="question4">Agree
+        </label><br>
+        <label for="option2">
+            <input type="radio" name="question4">Not sure
+        </label><br>
+        <label for="option3">
+            <input type="radio" name="question4">Disagree
+        </label><br><br>
+        <label for="question5"><b>Do you want to work once again in future with us?</b></label><br>
+        <label for="option1">
+            <input type="radio" name="question5">Most likely
+        </label><br>
+        <label for="option2">
+            <input type="radio" name="question5">Maybe
+        </label><br>
+        <label for="option3">
+            <input type="radio" name="question5">Unlikely
+        </label><br><br>
+        <label for="feedback"><b>Feedback</b></label><br>
+        <textarea rows="3" cols="80" name="feedback" placeholder="Kindly provide your feedback here"></textarea><br>
+        <center>
+            <input type="submit" value="Submit">
+        </center>
+    </form>
+</body>
+</html>

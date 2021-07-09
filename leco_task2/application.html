@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="css/application.css">
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First name">
+            <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br>
+            <label for="father">Father's name:</label><br>
+            <input type="text" id="fnamef" name="fnamef" placeholder="First name">
+            <input type="text" id="lnamef" name="lnamef" placeholder="Last name"><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Others">
+            <label for="other">Others</label><br>
+            <label for="martial">Martial status:</label>
+            <input type="radio" id="married" name="martial" value="Married">
+            <label for="male">Married</label>
+            <input type="radio" id="unmarried" name="martial" value="Unmarried">
+            <label for="female">Unmarried</label>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Mobile number:</label>
+            <input type="tel" id="phone" name="phone"><br>
+            <label for="address">Address:</label><br>
+            <textarea rows="4" cols="50" name="address" placeholder="Enter address here ..."></textarea><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br>
+            <label for="pin">Pin code:</label>
+            <input type="number" id="pin" name="pin"><br>  
+        </fieldset>
+        <fieldset>
+            <legend>Qualification details</legend>
+            <label for="qualification">Highest Qualification:</label>
+            <select name="qualification" id="qualification">
+                <option value="ssc">Senior secondary</option>
+                <option value="diploma">Diploma</option>
+                <option value="graduation">Graduation</option>
+                <option value="post">Post Graduation</option>
+                <option value="doctoral">Doctoral degree</option>
+            </select><br><br>
+            <label for="degree">Degree of highest qualification:</label>
+            <input type="text" id="degree" name="degree" placeholder="Ex. BTech">
+        </fieldset>
+        <fieldset>
+            <legend>Job</legend>
+            <label for="profile">Choose your job profile:</label>
+            <select name="profile" id="profile">
+                <option value="hr">Human Resource</option>
+                <option value="market">Marketing</option>
+                <option value="finance">Finance</option>
+                <option value="operations">Operations</option>
+                <option value="web">Web development</option>
+                <option value="graphic">Graphic designer</option>
+                <option value="ta">Technical assistant</option>
+            </select><br><br>
+            <label for="jobtype">Select job preference:</label>
+            <input type="checkbox" id="full" name="full">
+            <label for="full">Full time</label>
+            <input type="checkbox" id="part" name="part">
+            <label for="part">Part time</label>
+            <input type="checkbox" id="intern" name="intern">
+            <label for="intern">Internship</label>
+            <input type="checkbox" id="remote" name="remote">
+            <label for="remote">Remote</label><br>
+            <label for="resume">Upload your resume:</label>
+            <input type="file" id="resume" name="resume"><br>
+        </fieldset><br>
+        <center>
+        <input type="submit" value="Apply">
+        </center>
+    </form>
+</body>
+</html>
