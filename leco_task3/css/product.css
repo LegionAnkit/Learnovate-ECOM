@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.d-flex{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    border: 1px solid black;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+}
+
+img{
+    width: 70%;
+    height: 65%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 1.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
