@@ -1,0 +1,45 @@
+h2{
+    text-align: center;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.d-flex{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    border: 1px solid black;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+}
+
+.center{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ul{
+    padding-top: 2%;
+    list-style-type:square;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+li span{
+    position: relative;
+    left: -20px;
+}
